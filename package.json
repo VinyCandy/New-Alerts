@@ -1,7 +1,6 @@
 {
-  "name": "telegram",
+  "name": "pre-alert",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,6 +8,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "node-telegram-bot-api": "^0.56.0"
-  }
+    "axios": "^0.25.0",
+    "node-telegram-bot-api": "^0.56.0",
+    "puppeteer": "^13.3.2"
+  },
+  "description": ""
 }
